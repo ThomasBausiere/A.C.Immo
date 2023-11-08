@@ -13,10 +13,10 @@
     --big-title-size:4rem;
     --font-color:#000000;
     --padding: 20px;
-    scroll-snap-type:y mandatory;
     --police-light:'Futura PT' ;
     --police-bold:'Anton-Regular';
     font-family: var(--police-light);
+    scroll-snap-type:y mandatory;
 }
 
 
