@@ -108,8 +108,7 @@
 
 .slider-projects>a{
     height: 80%;
-    width: 25%;
-    border: 2px solid black;
+    width: 30%;
     position: relative;
     z-index: 0;
 
@@ -124,24 +123,29 @@ position: absolute;
 .slidep1{
     background-image: url("../../Image/photos/slider2_img1.png");
     background-position:center;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slidep2{
     background-image: url("../../Image/photos/slider2_img2.png");
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 }
 .slidep3{
     background-image: url("../../Image/photos/slider2_img3.png");
     background-repeat: no-repeat;
-
+    background-position:center;
+    background-size: cover;
 }
 
 .arrowleft{
     grid-column: 5;
     grid-row: 2;
     transform: rotate(90deg);
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
+
 }
 .arrowleft :hover{
     fill:var(--tertiary-color);
@@ -150,8 +154,9 @@ position: absolute;
     grid-column: 6;
     grid-row: 2;
     transform: rotate(270deg);
-    height: 50%;
-    width: 50%;
+    width: 25%;
+    height: 25%;
+
 }
 
 .arrowright :hover{
@@ -204,13 +209,14 @@ position: absolute;
 .slider-projects > a > .filter > hr{
     background-color: var(--tertiary-color);
     width: 50%;
-    height: 6px;
+    height: 3px;
 }
 
 .slider-projects > a > .filter > p{
     color: var(--primary-color);
     font-size: var(--police-bold);
     font-family: var(--police-light);
+    width: 80%;
 }
 
 a:-webkit-any-link {
