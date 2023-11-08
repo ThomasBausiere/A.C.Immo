@@ -41,6 +41,8 @@ header > .logo{
     width: 100%;
     overflow: hidden;
     border-right: 1px solid grey;    
+    position: relative;
+    z-index: 99;
 
 }
 .home{
