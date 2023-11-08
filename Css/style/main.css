@@ -1,17 +1,3 @@
-:root{
-    --primary-color:rgb(252, 252, 249);
-    --secondary-color:#000000;
-    --tertiary-color:#C4A600;
-    --font-size:1em;
-    --title-size:1.2rem;
-    --big-title-size:4rem;
-    --font-color:#000000;
-    --padding: 20px;
-    --police-light:'Futura PT' ;
-    --police-bold:'Anton-Regular';
-    font-family: var(--police-light);
-    scroll-snap-type:y mandatory;
-}
 
 main{
     display: grid;
@@ -85,7 +71,7 @@ main > .overlay{
     text-decoration: none;
     background-color: var(--tertiary-color);
     color:var(--primary-color);
-    font-family:var(--police-bold);
+    font-family:'Anton-Regular';
     width: 60%;
     height: 45%;
     border-radius: 6px;
@@ -96,7 +82,7 @@ main > .overlay{
 }
 .accueil > .btn{
     color: var(--primary-color);
-    font-size: var(--title-size);
+    font-size: /*var(--title-size)*/1.2rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -108,13 +94,13 @@ main > .overlay{
 }
 
 .accueil h3{
-    font-size: var(--big-title-size);
-    font-family: var(--police-light);
+    font-size:1em /*var(--big-title-size)*/;
+    font-family: 'Futura PT' /*var(--police-light)*/;
 }
 
 .accueil p{
-    font-size: var(--font-title);
-    font-family: var(--police-light);
+    font-size: 1em/*var(--font-title)*/;
+    font-family: 'Futura PT'/*var(--police-light)*/;
 
 }
 
