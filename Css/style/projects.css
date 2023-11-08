@@ -132,6 +132,7 @@ position: absolute;
 }
 .slidep3{
     background-image: url("../../Image/photos/slider2_img3.png");
+    background-repeat: no-repeat;
 
 }
 
