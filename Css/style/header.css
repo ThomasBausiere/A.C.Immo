@@ -8,8 +8,10 @@ header{
     width: 100%;
     background-color: var(--primary-color);
     text-align: center;
-    font-size: var(--title-size);
-    font-family: var(--police-light);
+    /* font-size: var(--title-size); */
+    font-size: 1.2rem;
+    /* font-family: var(--police-light); */
+    font-family: 'Futura PT';
     z-index: 99;
     border-bottom: 1px solid grey;
     height: 10vh;
