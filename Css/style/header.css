@@ -11,11 +11,10 @@ header{
     /* font-size: var(--title-size); */
     font-size: 1.2rem;
     /* font-family: var(--police-light); */
-    font-family: 'Futura PT';
+    font-family: 'Futura PT', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     z-index: 99;
     border-bottom: 1px solid grey;
     height: 10vh;
-    z-index: 2;
    
     
 }
