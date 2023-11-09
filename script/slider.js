@@ -33,10 +33,10 @@ const Slider ={
         })
         container.append(dots);
         const next = document.createElement("a");
-        next.classList.add("next");
+        // next.classList.add("next");
         next.innerHTML = "&#10095;";
         const prev = document.createElement("a");
-        prev.classList.add("prev");
+        // prev.classList.add("prev");
         prev.innerHTML = "&#10094;";
         //ajout version objet
         container.append(next, prev);
@@ -72,16 +72,25 @@ const Slider ={
         }
         this.startInterval()
     },
-    init(timing = 3000){
+    init(timing = 6000){
         this.time = timing;
         this.showItems(0);
         this.slider.dots.forEach(dot=>dot.addEventListener("pointerdown", this.currentItem.bind(this)));
-        this.slider.btns.forEach(btn=>btn.addEventListener("pointerdown", this.changeItem.bind(this)));
+        // this.slider.btns.forEach(btn=>btn.addEventListener("pointerdown", this.changeItem.bind(this)));
         this.startInterval();
     },
     startInterval() {
         this.intervalId = setInterval(() => {
-            this.slider.btns[1].click();           
+            // Obtenir l'index de l'image actuellement visible
+            let currentIndex = this.slider.items.findIndex(item => item.style.display === "block");
+            // Incrémenter l'index pour passer à l'image suivante
+            let nextIndex = currentIndex + 1;
+            // Si l'index est supérieur au nombre d'images, revenir à 0 (première image)
+            if (nextIndex >= this.slider.items.length) {
+                nextIndex = 0;
+            }
+            // Afficher la nouvelle image
+            this.showItems(nextIndex);
         }, this.time);
     }
 }
