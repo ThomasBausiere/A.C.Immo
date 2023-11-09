@@ -39,3 +39,19 @@ footer{
     height: auto;
 }
 
+.prez, .logof, .socials, .contacts{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.prez >h1, .logof>h1, .socials>h1, .contacts>h1{
+    font-size: var(--title-size);
+}
+.prez >p, .socials> ul > li, .contacts>ul>li{
+    text-align: left;
+    font-size: 1rem;
+}
