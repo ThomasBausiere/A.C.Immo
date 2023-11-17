@@ -94,12 +94,12 @@ main > .overlay{
 }
 
 .accueil h3{
-    font-size:1em /*var(--big-title-size)*/;
+    font-size:var(--big-title-size);
     font-family: 'Futura PT' /*var(--police-light)*/;
 }
 
 .accueil p{
-    font-size: 1em/*var(--font-title)*/;
+    font-size: var(--font-size2);
     font-family: 'Futura PT'/*var(--police-light)*/;
 
 }

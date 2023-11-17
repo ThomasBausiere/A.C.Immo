@@ -9,6 +9,8 @@
     --secondary-color:#000000;
     --tertiary-color:#C4A600;
     --font-size:1em;
+    --font-size2:1.5em;
+
     --title-size:1.2rem;
     --big-title-size:4rem;
     --font-color:#000000;
@@ -17,6 +19,7 @@
     --police-bold:'Anton-Regular';
     font-family: var(--police-light);
     scroll-snap-type:y mandatory;
+    scroll-behavior: smooth;
 }
 
 
@@ -38,4 +41,12 @@ body
     width: 100%;
     overflow-x: hidden;
     
+}
+
+span.gras{
+    font-weight: bold;
+}
+
+span.ita{
+font-style: italic;
 }
