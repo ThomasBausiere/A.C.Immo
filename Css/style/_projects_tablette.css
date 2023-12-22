@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
   body {
     grid-template-rows: 10vh 50vh 77vh 30vh;
     height: 160vh;
@@ -85,6 +85,18 @@
   }
   .btnvoirplusp,
   .btnvoirplusp {
+    display: none;
+  }
+  header {
+    grid-template-columns: 20% 40% 10% 20% 10%;
+  }
+  span.nav-btn {
+    display: none;
+  }
+  #navbar {
+    display: none;
+  }
+  header > nav.navbar {
     display: none;
   }
 }
