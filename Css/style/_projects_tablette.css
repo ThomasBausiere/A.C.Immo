@@ -1,3 +1,5 @@
+@import url("./style/mobile_header.css");
+
 @media only screen and (min-width: 768px) {
   body {
     grid-template-rows: 10vh 50vh 77vh 30vh;
@@ -46,7 +48,6 @@
   .slidsp > img {
     width: 40%;
     aspect-ratio: 1/1;
-    width: 50%;
   }
   .arrowareap {
     grid-template-rows: 25% 50% 25%;
