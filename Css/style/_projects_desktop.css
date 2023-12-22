@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
   .slidsp > img {
     width: 30%;
     padding-right: 73px;

@@ -1,10 +1,8 @@
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) {
   body {
     grid-template-rows: 10vh 50vh 77vh 30vh;
     height: 160vh;
     grid-template-columns: 20% 40% 10% 20% 10%;
-    width: 100%;
-    overflow-x: hidden;
   }
   .noir {
     grid-column: 1 / span 5;
@@ -44,12 +42,11 @@
     font-size: 48px;
     letter-spacing: 0.1em;
   }
-  .slidsp {
-    height: 50%;
-  }
+
   .slidsp > img {
     width: 40%;
     aspect-ratio: 1/1;
+    width: 50%;
   }
   .arrowareap {
     grid-template-rows: 25% 50% 25%;
