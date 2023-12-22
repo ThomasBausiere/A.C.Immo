@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+  .container1 {
+    flex-direction: column;
+  }
+
+  .contacts,
+  .infos {
+    width: 80%;
+  }
+
+  .container1 h1 {
+    font-size: 18px;
+  }
+  .container1 a {
+    font-size: 14px;
+  }
+}

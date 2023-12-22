@@ -12,7 +12,6 @@
   --tertiary-color: #c4a600;
   --font-size: 1em;
   --font-size2: 1.5em;
-
   --title-size: 1.2rem;
   --medium-title-size: 2rem;
   --big-title-size: 4rem;
@@ -23,6 +22,13 @@
   font-family: var(--police-light);
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+}
+
+.png {
+  display: none;
+}
+.jpg {
+  display: block;
 }
 
 @font-face {
@@ -48,4 +54,12 @@ span.gras {
 
 span.ita {
   font-style: italic;
+}
+
+.about2 > .h1 {
+  display: none;
+}
+.btnarea,
+.btn2area {
+  display: none;
 }

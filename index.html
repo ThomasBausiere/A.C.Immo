@@ -20,16 +20,68 @@
       <div class="about">
         <a href="#About">À PROPOS</a>
       </div>
+      <!-- NAV BURGER FOR MOBILE -->
+      <span class="nav-btn">
+        <label for="navbar">
+          <img class="navburg" src="./Image/icons/bars-solid.png" alt="" />
+        </label>
+      </span>
+      <input type="checkbox" id="navbar" />
+      <nav class="navbar">
+        <span class="nav-close">
+          <label for="navbar">
+            <img class="navburg" src="./Image/icons/xmark-solid.svg" alt="" />
+          </label>
+        </span>
+        <ul class="nav-list">
+          <nav class="nav-item"><a href="#main">ACCUEIL</a></nav>
+          <hr />
+          <nav class="nav-item"><a href="#projects">PROJETS REALISES</a></nav>
+          <hr />
+          <nav class="nav-item"><a href="#About">À PROPOS</a></nav>
+        </ul>
+      </nav>
+      <!--  FIN NAV BURGER  -->
     </header>
     <main id="main">
       <!-- Home -->
 
       <div class="img">
         <a href="#About">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-            <path
-              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-            />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48.328"
+            height="54.828"
+            viewBox="0 0 48.328 54.828"
+          >
+            <g
+              id="Group_4_export"
+              data-name="Group 4_export"
+              transform="translate(54.914 -7) rotate(90)"
+            >
+              <g id="Group_4" data-name="Group 4" transform="translate(7 8)">
+                <path
+                  id="Path_2"
+                  data-name="Path 2"
+                  d="M0,0,22.75,22.75,0,45.5"
+                  transform="translate(29.25)"
+                  fill="none"
+                  stroke="#b99d00"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <path
+                  id="Path_3"
+                  data-name="Path 3"
+                  d="M52,1H0"
+                  transform="translate(0 21.75)"
+                  fill="none"
+                  stroke="#b99d00"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+              </g>
+            </g>
           </svg>
         </a>
       </div>
@@ -51,8 +103,14 @@
     <!-- About -->
     <section id="About">
       <div class="about2">
+        <div class="h1">
+          <div class="hr1"></div>
+          <h1>À PROPOS</h1>
+        </div>
         <div class="photo"></div>
-        <img src="./Image/photos/anatole.jpg" alt="" />
+        <img class="png" src="./Image/photos/anatole.png" alt="Photo Anatole" />
+        <img class="jpg" src="./Image/photos/anatole.jpg" alt="Photo Anatole" />
+
         <div class="txtarea">
           <div class="h1">
             <h1>À PROPOS</h1>
@@ -69,7 +127,7 @@
             S'ensuit alors des visites de villes, de biens en vente aux
             enchères, une consommation excessive de contenus internet (vidéos,
             podcasts, livres ...)
-            <span class="ita">...Mon esprit s'imprègne alors de ce sujet</span>
+            <span class="ita">... Mon esprit s'imprègne alors de ce sujet</span>
             très vaste qu'est l'immobilier et
             <span class="gras"
               >je réalise alors mon 1er investissement 6 mois après ma
@@ -96,6 +154,10 @@
             >
           </p>
         </div>
+        <div class="btnarea">
+          <div class="btndesc">Voir plus</div>
+          <div class="btn2desc">Voir moins</div>
+        </div>
         <div class="col1"></div>
         <div class="col2"></div>
         <div class="col3"></div>
@@ -121,52 +183,108 @@
         <div class="col4"></div>
 
         <div class="slider-projects">
-          <a href="#">
+          <a href="./projets.html" class="slidprojet1">
             <div class="slidep1"></div>
             <div class="filter">
-              <h1>TITRE</h1>
+              <h1>Entre Lumière et Modernité</h1>
               <hr />
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                ut tempore dolores enim, veniam assumenda!
-              </p>
+              <p>Duplex Transformé, Invitation à une Vie Renouvelée</p>
             </div>
           </a>
-          <a href="#">
+          <a href="./projets.html" class="slidprojet2">
             <div class="slidep2"></div>
             <div class="filter">
-              <h1>TITRE</h1>
+              <h1>Pédalez vers le Confort</h1>
               <hr />
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-                nobis ullam architecto, tempore ipsam at!
+                Rénovation d’un Appartement à Roubaix aux Couleurs de
+                Paris-Roubaix
               </p>
             </div>
           </a>
-          <a href="#">
+          <a href="./projets.html" class="slidprojet3">
             <div class="slidep3"></div>
             <div class="filter">
-              <h1>TITRE</h1>
+              <h1>Au-delà des Murs</h1>
               <hr />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                error, aperiam veniam incidunt sint vitae?
+                Rénovation d’un Appartement à Roubaix aux Couleurs de
+                Paris-Roubaix
               </p>
             </div>
           </a>
         </div>
         <div class="arrowleft">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-            <path
-              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-            />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="54.828"
+            height="48.329"
+            viewBox="0 0 54.828 48.329"
+          >
+            <g
+              id="Group_4_export"
+              data-name="Group 4_export"
+              transform="translate(2.828 1.414)"
+            >
+              <g id="Group_4" data-name="Group 4">
+                <path
+                  id="Path_2"
+                  data-name="Path 2"
+                  d="M22.75,45.5,0,22.75,22.75,0"
+                  fill="none"
+                  stroke="#c4a600"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <path
+                  id="Path_3"
+                  data-name="Path 3"
+                  d="M0,0H52"
+                  transform="translate(0 22.75)"
+                  fill="none"
+                  stroke="#c4a600"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+              </g>
+            </g>
           </svg>
         </div>
         <div class="arrowright">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-            <path
-              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-            />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="54.828"
+            height="48.329"
+            viewBox="0 0 54.828 48.329"
+          >
+            <g
+              id="Group_4_export"
+              data-name="Group 4_export"
+              transform="translate(0 1.414)"
+            >
+              <g id="Group_4" data-name="Group 4">
+                <path
+                  id="Path_2"
+                  data-name="Path 2"
+                  d="M0,0,22.75,22.75,0,45.5"
+                  transform="translate(29.25)"
+                  fill="none"
+                  stroke="#c4a600"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <path
+                  id="Path_3"
+                  data-name="Path 3"
+                  d="M52,0H0"
+                  transform="translate(0 22.75)"
+                  fill="none"
+                  stroke="#c4a600"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+              </g>
+            </g>
           </svg>
         </div>
       </div>
@@ -178,22 +296,20 @@
           <img src="./Image/logo.png" alt="" />
         </div>
         <div class="infos">
-          <h1>INFOS LEGALES</h1>
-          <ul>
-            <li><a href="#">Mentions légales</a></li>
-            <li><a href="#">Politique en matière de confidentialité</a></li>
-            <li><a href="#">&copy 2023, Chevet, tous droits réservés.</a></li>
-            <li><a href="#">&copy 2023, Chevet, tous droits réservés.</a></li>
-          </ul>
-        </div>
-
-        <div class="contacts">
           <h1>CONTACT</h1>
           <ul>
             <li><a href="#">113 Avenue Jean Lebas 59100, Roubaix</a></li>
             <li><a href="#">chevet.immobilier@contact.com</a></li>
             <li><a href="#">0613664754</a></li>
-            <li><a href="#">Lorem ipsum dolor sit</a></li>
+          </ul>
+        </div>
+
+        <div class="contacts">
+          <h1>INFOS LEGALES</h1>
+          <ul>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#">Politique en matière de confidentialité</a></li>
+            <li><a href="#">&copy 2023, Chevet, tous droits réservés.</a></li>
           </ul>
         </div>
       </div>

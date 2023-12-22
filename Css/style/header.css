@@ -71,3 +71,14 @@ header > .logo {
   justify-content: center;
   align-items: center;
 }
+/* NavBurger Hidden  for mobile*/
+
+span.nav-btn {
+  display: none;
+}
+#navbar {
+  display: none;
+}
+header > nav.navbar {
+  display: none;
+}
