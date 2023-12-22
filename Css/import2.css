@@ -1,8 +1,7 @@
 @import url("./style/config_projects.css");
 @import url("./style/header.css");
-@import url("./style/_footer.css");
-@import url("./style/_mobile_footer.css");
 @import url("./style/mobile_header.css");
-
+@import url("./style/_footer.css");
+@import url("./style/mobile_footer.css");
 @import url("./style/_projects_tablette.css");
 @import url("./style/_projects_desktop.css");

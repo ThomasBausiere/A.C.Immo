@@ -95,7 +95,7 @@ header {
   display: grid;
   grid-template-rows: 10vh 2vh 10vh 2vh 34vh 11vh 20vh 11vh;
   grid-template-columns: 5% 15% 60% 15% 5%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .yellowbar {
   width: 25%;
