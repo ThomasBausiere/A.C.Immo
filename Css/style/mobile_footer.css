@@ -14,4 +14,9 @@
   .container1 a {
     font-size: 14px;
   }
+  .infos {
+    border: 1px solid var(--primary-color);
+    border-left: none;
+    border-right: none;
+  }
 }
