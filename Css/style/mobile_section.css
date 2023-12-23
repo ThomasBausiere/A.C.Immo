@@ -51,7 +51,7 @@
   .about2 > .h1 > h1 {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 28px;
+    font-size: 24px;
     font-family: var(--police-bold);
     letter-spacing: 0.2rem;
   }

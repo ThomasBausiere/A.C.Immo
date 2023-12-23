@@ -7,6 +7,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   color: white;
+  background-color: #707070;
   /* scroll-snap-align: end; */
   /* font-family: var(--police-light); */
 }
