@@ -5,9 +5,9 @@
 @import url("./style/_projects_tablette.css");
 @import url("./style/_projects_desktop.css"); */
 
-@import url("./Css/style/config_projects.css");
+@import url("./style/config_projects.css");
 @import url("./Css/style/_header.css");
-@import url("./Css/style/_mobile_header.css");
-@import url("./Css/style/_footer.css");
-@import url("./Css/style/_projects_tablette.css");
-@import url("./Css/style/_projects_desktop.css");
+@import url("./style/_mobile_header.css");
+@import url("./style/_footer.css");
+@import url("./style/_projects_tablette.css");
+@import url("./style/_projects_desktop.css");
