@@ -2,19 +2,19 @@
   "Projet1": {
     "Titre": "Entre Lumière et Modernité",
     "image": [
-      "./image/projet1/image_01.jpg",
-      "./image/projet1/image_02.jpg",
-      "./image/projet1/image_03.jpg",
-      "./image/projet1/image_04.jpg",
-      "./image/projet1/image_05.jpg",
-      "./image/projet1/image_06.jpg",
-      "./image/projet1/image_07.jpg",
-      "./image/projet1/image_08.jpg",
-      "./image/projet1/image_09.jpg",
-      "./image/projet1/image_10.jpg",
-      "./image/projet1/image_11.jpg",
-      "./image/projet1/image_12.jpg",
-      "./image/projet1/image_13.jpg"
+      "./Image/Projet1/image_01.jpg",
+      "./Image/Projet1/image_02.jpg",
+      "./Image/Projet1/image_03.jpg",
+      "./Image/Projet1/image_04.jpg",
+      "./Image/Projet1/image_05.jpg",
+      "./Image/Projet1/image_06.jpg",
+      "./Image/Projet1/image_07.jpg",
+      "./Image/Projet1/image_08.jpg",
+      "./Image/Projet1/image_09.jpg",
+      "./Image/Projet1/image_10.jpg",
+      "./Image/Projet1/image_11.jpg",
+      "./Image/Projet1/image_12.jpg",
+      "./Image/Projet1/image_13.jpg"
     ],
     "Sous-titre": "Duplex Transformé, Invitation à une Vie Renouvelée",
     "Texte": {
@@ -26,12 +26,12 @@
   "Projet2": {
     "Titre": "Pédalez vers le Confort",
     "image": [
-      "./image/projet2/image_01.jpg",
-      "./image/projet2/image_02.jpg",
-      "./image/projet2/image_03.jpg",
-      "./image/projet2/image_04.jpg",
-      "./image/projet2/image_05.jpg",
-      "./image/projet2/image_06.jpg"
+      "./Image/Projet2/image_01.jpg",
+      "./Image/Projet2/image_02.jpg",
+      "./Image/Projet2/image_03.jpg",
+      "./Image/Projet2/image_04.jpg",
+      "./Image/Projet2/image_05.jpg",
+      "./Image/Projet2/image_06.jpg"
     ],
     "Sous-titre": "Rénovation d’un Appartement à Roubaix aux Couleurs de Paris-Roubaix",
     "Texte": {
@@ -44,15 +44,15 @@
   "Projet3": {
     "Titre": "Au-delà des Murs",
     "image": [
-      "./image/Projet3/image_01.jpg",
-      "./image/projet3/image_02.jpg",
-      "./image/projet3/image_03.jpg",
-      "./image/projet3/image_04.jpg",
-      "./image/projet3/image_05.jpg",
-      "./image/projet3/image_06.jpg",
-      "./image/projet3/image_07.jpg",
-      "./image/projet3/image_08.jpg",
-      "./image/projet3/image_09.jpg"
+      "./Image/Projet3/image_01.jpg",
+      "./Image/Projet3/image_02.jpg",
+      "./Image/Projet3/image_03.jpg",
+      "./Image/Projet3/image_04.jpg",
+      "./Image/Projet3/image_05.jpg",
+      "./Image/Projet3/image_06.jpg",
+      "./Image/Projet3/image_07.jpg",
+      "./Image/Projet3/image_08.jpg",
+      "./Image/Projet3/image_09.jpg"
     ],
     "Sous-titre": "Rénovation d’un Appartement à Roubaix aux Couleurs de Paris-Roubaix",
     "Texte": {
