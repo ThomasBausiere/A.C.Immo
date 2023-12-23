@@ -1,6 +1,6 @@
 // import Sliderp from "./script.slider.projets.js";
 
-const url = "../projets.json";
+const url = "./projets.json";
 
 var currentProjet = sessionStorage.getItem("currentProjet");
 
